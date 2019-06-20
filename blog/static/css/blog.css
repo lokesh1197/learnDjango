@@ -4,7 +4,7 @@
     padding: 20px 20px 20px 40px;
 }
 
-.page-header h1, .page-header h1a, .page-header h1 a:visited, .page-header h1 a:active {
+.page-header h1, .page-header h1 a:not(:last-child), .page-header h1 a:visited:not(:last-child), .page-header h1 a:active:not(:last-child) {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
@@ -41,6 +41,6 @@ h1, h2, h3, h4 {
     margin-bottom: 70px;
 }
 
-.post h2 a, .post h2 a:visited {
+.post h2 a:not(:last-child), .post h2 a:visited:not(:last-child) {
     color: #000000;
 }
